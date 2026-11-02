@@ -57,7 +57,7 @@ public class MainActivity extends Activity {
             status.setText("STATUS: MONITORING ON");
             status.setTextColor(Color.GREEN);
             refreshDevices();
-            requestFocus();
+            
         });
 
         addButton("STOP MONITORING", v -> {
